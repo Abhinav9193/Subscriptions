@@ -1,4 +1,5 @@
 import { Router } from "express";
+
 const authRouter = Router();
 
 authRouter.get('/signup', (req, res) => 
