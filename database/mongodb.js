@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import { DB_URL } from "../config/env.js";
 import dns from "dns";
+
 if(!DB_URL)
 {
     throw new Error("DB_URL is not defined in the environment variables");
