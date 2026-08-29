@@ -26,5 +26,4 @@ userRouter.put('/:id', (req,res) => {
     });
 })
 
-
 export default userRouter;
