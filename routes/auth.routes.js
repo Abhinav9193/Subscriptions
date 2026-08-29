@@ -16,6 +16,5 @@ authRouter.get('/signup', (req, res) =>
     res.send({
         message: 'Log Out'
     }));
-
 export default authRouter;
 
