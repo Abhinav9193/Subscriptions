@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import { DB_URL } from "../config/env.js";
+
 import dns from "dns";
 
 if(!DB_URL)
